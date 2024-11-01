@@ -1,66 +1,543 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold fs-2" href="#">POLO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto fw-bold fs-6">
-            <a class="nav-link active" aria-current="page" href="#">HOME</a>
-            <a class="nav-link" href="#">LAYOUT</a>
-            <a class="nav-link" href="#">FEATURES</a>
-            <a class="nav-link" href="#">ELEMENTS</a>
-            <a class="nav-link" href="#">PAGES</a>
-            <a class="nav-link" href="#">PORTFOLIO</a>
-            <a class="nav-link" href="#">BLOG</a>
-            <a class="nav-link" href="#">SHOP</a>
-            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a class="nav-link" href="#"><i class="fa-solid fa-globe"></i></a>
-            
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div id="all-way-up"></div>
+  <!-- NAV BAR SECTION -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-2" href="#">POLO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto fw-bold fs-6">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link" href="#">LAYOUT</a>
+          <a class="nav-link" href="#">FEATURES</a>
+          <a class="nav-link" href="#">ELEMENTS</a>
+          <a class="nav-link" href="#">PAGES</a>
+          <a class="nav-link" href="#">PORTFOLIO</a>
+          <a class="nav-link" href="#">BLOG</a>
+          <a class="nav-link" href="#">SHOP</a>
+          <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a class="nav-link" href="#"><i class="fa-solid fa-globe"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- MAIN SECTION CAROUSEL -->
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item carousel-sec-img active" data-bs-interval="10000">
+        <img src="/asset 5.jpeg" class="d-block w-100 img-fluid" alt="...">
+        <div class="text-start align-start carousel-content carousel-caption">
+          <div>
+            <h5 class="fw-bold text-white">BUSINESS</h5>
+          </div>
+          <h1 class="text-white fw-bold polo-head">Polo Gives You Power To Build Beautiful Websites</h1>
+          <button type="button" class="btn btn-primary">EXPLORE</button>
+          <button type="button" class="btn btn-light ">PURCHASE</button>
+        </div>
+      </div>
+      <div class="carousel-item carousel-sec-img" data-bs-interval="2000">
+        <img src="/asset 4.jpeg" class="img-carousel d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption carousel-explore">
+          <h5 class="fw-bold text-white">BUSINESS</h5>
+          <h1 class="fw-bold explore-heading text-white">Explore The New World of Creativity</h1>
+          <button type="button" class="btn btn-primary">EXPLORE</button>
+          <button type="button" class="btn btn-light ">PURCHASE</button>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- MAIN SECTION COL -->
+
+  <section class="mt-5">
+    <div class="container pb-5 bg-white text-dark">
+      <h5>About us</h5>
+      <div class="row gap-4">
+        <div class="col-md-6 col-lg-5">
+          <p class="fw-medium about-header">Set your goals high, and <br> don't stop till you get <br>there.</p>
+          <p class="medium-text text-secondary">Nulla varius consequat magna, id molestie ipsum volutpat quis. A true
+            story, that never been told!. Fusce id mi diam, non ornare. Fusce id mi diam, non ornare orci. Pellentesque
+            ipsum erat, facilisis ut venenatis eu.</p>
+          <button type="button" class="thick-border btn btn-outline-dark rounded-5 ">OUR SERVICE</button>
+        </div>
+
+        <div class="mb-fully-responsive col-md-6 col-lg-3">
+          <div class="mobile-responsive">
+            <h5>Fully Responsive</h5>
+            <p class="smaller-text text-secondary">We’re POLO, a creative agency located in the heart of New York city.
+              A true story, that never been told!. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis
+              ut venenatis eu.
+            </p>
+          </div>
+
+          <div class="mobile-responsive">
+            <h5>Fast as light</h5>
+            <p class="smaller-text text-secondary">We’re POLO, a creative agency located in the heart of New York city.
+              A true story, that never been told!. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis
+              ut venenatis eu.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="mobile-responsive">
+            <h5>Tons of Options</h5>
+            <p class="smaller-text text-secondary">We’re POLO, a creative agency located in the heart of New York city.
+              A true story, that never been told!. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis
+              ut venenatis eu.
+            </p>
+          </div>
+
+          <div class="mobile-responsive">
+            <h5>Easy to Customize</h5>
+            <p class="smaller-text text-secondary">We’re POLO, a creative agency located in the heart of New York city.
+              A true story, that never been told!. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis
+              ut venenatis eu.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div style="background-color: hsl(210, 33%, 97%)" ;>
+      <div class="p-5 purchase-polo container  d-lg-flex justify-content-between container">
+        <p class="poppins-font fs-4">Like What You See? We're Just Getting Started</p>
+        <button type="button" class="fw-medium p-3   rounded-5 btn-small btn btn-primary"
+          style="font-size: 13px;">PURCHASE POLO</button>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PURCHASE POLO SECTION -->
+  <section class="container-fluid img-background">
+    <div class="container text-white px-5  parallax-flex-container">
+      <div class="parallax-item">
+        <h5 class="fs-2 pt-4">Our Numbers & Smooth <br> Parallax</h5>
+        <p class="our-numbers-p">Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!. Fusce id
+          mi diam, non ornare. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, id molestie ipsum volutpat
+          quis. facilisis ut venenatis eu.</p>
+        <button type="button" class="px-4 py-3 fw-bold btn rounded rounded-5 btn-outline-light"
+          style="color: hsl(210, 1%, 37%); font-size: 13px;">OUR SERVICE</button>
+      </div>
+
+      <div class="parallax-flex">
+        <div class="parallax-items">
+          <div class="items">
+            <h3 class="fw-bold">12416</h3>
+            <p>LINES OF CODE</p>
+          </div>
+          <div class="items">
+            <h3 class="fw-bold">356</h3>
+            <p>CUPS OF COFEE</p>
+          </div>
+        </div>
+
+        <div class="parallax-items">
+          <div class="items">
+            <h3 class="fw-bold">114</h3>
+            <p>FINISHED PROJECTS</p>
+          </div>
+          <div class="items">
+            <h3 class="fw-bold">114</h3>
+            <p>CERTISFIED CLIENTS</p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ABOUT OUR COMPANY SECTION -->
+  <section class="about-company-sec">
+    <div class="about-company container "> 
+      <div >
+        <h5>Know More</h5>
+        <h4 class="about-subhead">About Our Company</h4>
+        <p class="text-secondary">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. <br> Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.</p>
+      </div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-grid-wrapper row">
+        <div class="progress-flex col-lg-4 col-md-6 mb-3">
+          <h5>We are making progress</h5>
+          <div class="progress-wrapper">
+            <div class="progress-col-flex"><p>HTML5</p>
+                <p>100%</p>
+            </div>
+            <div class="progress rounded-0 " role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 100%"></div>
+            </div>            
+          </div>
+
+          <div class="progress-wrapper">
+            <div  class="progress-col-flex"><p>CSS3</p>
+                <p>94%</p>
+            </div>
+            <div class="progress rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 94%"></div>
+            </div> 
+          </div>
+
+          <div class="progress-wrapper">
+            <div  class="progress-col-flex"><p>JQUERY</p>
+                <p>89%</p>
+            </div>
+            <div class="progress rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 89%"></div>
+            </div> 
+          </div>
+
+          <div class="progress-wrapper">
+            <div  class="progress-col-flex"><p>MYSQL</p>
+                <p>78%</p>
+            </div>
+            <div class="progress rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 78%"></div>
+            </div> 
+          </div>
+
+          <div class="progress-wrapper">
+            <div class="progress-col-flex"><p>PHP</p>
+                <p>75%</p>
+            </div>
+            <div class="progress rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%"></div>
+            </div> 
+          </div>
+
+          <p class="text-secondary">Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!.</p>
+        </div>
+
+
+        <div class="service-flex  col-lg-4 col-md-6 mb-4">
+          <h5>Best service around</h5>
+          <div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="border border-bottom-0 border accordion-flex fs-6  d-flex gap-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <div>
+                      <ion-icon name="rocket-outline"></ion-icon>
+                      Accordion Item
+                    </div>
+                    <div class="ms-auto">
+                    <ion-icon name="add-outline"></ion-icon>
+                    </div>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="border border-top-0 border accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, illo impedit tenetur unde quod optio natus libero? Quas, unde optio!</div>
+
+                  <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa magni eius modi incidunt excepturi, dolorum temporibus maiores quam blanditiis quos consectetur consequuntur id? Mollitia, ullam.</div>
+                </div>
+              </div>
+
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="border border-bottom-0 border accordion-flex fs-6  d-flex gap-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <div>
+                      <ion-icon name="heart-sharp"></ion-icon>
+                      Accordion Item
+                    </div>
+                    <div class="ms-auto">
+                    <ion-icon name="add-outline"></ion-icon>
+                    </div>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="border border-top-0 accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ullam cum voluptas veritatis, inventore animi, fuga placeat nisi eos voluptatibus repellendus totam, dolorum in nesciunt.</div>
+
+                  <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ullam cum voluptas veritatis, inventore animi, fuga placeat nisi eos voluptatibus repellendus totam, dolorum in nesciunt.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="border border-bottom-0 accordion-flex fs-6  d-flex gap-5 accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <div>
+                      <ion-icon name="cart-sharp"></ion-icon>
+                      Accordion Item
+                    </div>
+                    <div class="ms-auto">
+                    <ion-icon name="add-outline"></ion-icon>
+                    </div>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="border border-top-0 border accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptate commodi quia dolor minus odit magnam quam beatae minima vel, eligendi voluptates molestiae animi autem.</div>
+
+                  <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptate commodi quia dolor minus odit magnam quam beatae minima vel, eligendi voluptates molestiae animi autem.</div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class=" col-lg-4 col-md-6 mb-3">
+          <h5>Latest from blog</h5>
+          <div class="d-flex flex-column gap-4">
+            <div class="blog-flex gap-3">
+              <img class="blog-img" src="/asset 0.jpeg" alt="" style="width: 80px; ">
+              <div class="d">
+                dolor sit amet consectetur.
+                <div class="d-flex gap-3 text-secondary">
+                  <p><ion-icon name="time-sharp"></ion-icon>
+                    6m ago</p>
+
+                   <p> <ion-icon name="pricetag-sharp"></ion-icon>
+                    Technology </p>   
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-flex gap-3">
+              <img class="blog-img" src="/asset 1.jpeg" alt="" style="width: 80px; ">
+              <div class="d">
+                dolor sit amet consectetur.
+                <div class="d-flex gap-3 text-secondary">
+                  <p><ion-icon name="time-sharp"></ion-icon>
+                    6m ago</p>
+
+                   <p> <ion-icon name="pricetag-sharp"></ion-icon>
+                    Technology </p>   
+                </div>
+              </div>
+            </div>
+            <div class="blog-flex gap-3">
+              <img class="blog-img" src="/asset 2.jpeg" alt="" style="width: 80px; ">
+              <div class="d">
+                dolor sit amet consectetur.
+                <div class="d-flex gap-3 text-secondary">
+                  <p><ion-icon name="time-sharp"></ion-icon>
+                    6m ago</p>
+
+                   <p> <ion-icon name="pricetag-sharp"></ion-icon>
+                    Technology </p>   
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-flex gap-3">
+              <img class="blog-img" src="/asset 3.jpeg" alt="" style="width: 80px; ">
+              <div class="d">
+                dolor sit amet consectetur.
+                <div class="d-flex gap-3 text-secondary">
+                  <p><ion-icon name="time-sharp"></ion-icon>
+                    6m ago</p>
+
+                   <p> <ion-icon name="pricetag-sharp"></ion-icon>
+                    Technology </p>   
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </nav>
-
-    
-    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-      <div class="carousel-inner">
-        <div class="carousel-item active img-fluid" style="height: 400px;">
-          <img src="asset 4.jpeg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" style="height: 400px;">
-          <img src="/asset 5.jpeg" class="d-block w-100" salt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
 
 
-    
-    
+  </section>
 
 
-   
+  <!-- GET IN TOUCH SECTION -->
+  <section class="getin-touch-section">
+    <div class="touch-flexwrap d-lg-flex d-md-column gap-5">
+      <div class="touch-flex-item">
+        <h4 class="touch-head">Get in Touch with Us</h4>
+        <p class="text-secondary">Our Headquarters are in Australia, USA, Europe, Asia, Africa</p>
+        <div class="row ">
+          <div class="col-lg-6 col-md-12">
+            <address class="text-secondary">
+              <p><strong>Headquarters:</strong><br>
+              795 Folsom Ave, Suite 600 <br>
+                San Francisco, CA 94107</p>
+
+          
+              <p><strong>Phone: </strong>(+1) 123456789 <br>
+              <strong>Fax: </strong>(+1) 12 3456 78910<br>
+              <strong>Email: </strong>info@inspiro-media.com</p>
+            </address>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <address class="text-secondary">
+              <p><strong>Headquarters:</strong><br>
+              795 Folsom Ave, Suite 600 <br>
+                San Francisco, CA 94107</p>
+
+            <address>
+              <p><strong>Phone: </strong>(+1) 123456789 <br>
+              <strong>Fax: </strong>(+1) 12 3456 78910<br>
+              <strong>Email: </strong>info@inspiro-media.com</p>
+            </address>
+          </div>
+
+          <h5 class="social-header">We are social</h5>
+          <div class="d-lg-flex d-md-column icon-wrapper gap-1 mb-5">
+            <ion-icon class="icon-item" name="logo-rss"></ion-icon>
+            <ion-icon class="icon-item" name="logo-facebook"></ion-icon>
+            <ion-icon class="icon-item" name="logo-vimeo"></ion-icon>
+            <ion-icon class="icon-item" name="logo-youtube"></ion-icon>
+            <ion-icon class="icon-item" name="logo-instagram"></ion-icon>
+            <ion-icon class="icon-item" name="logo-pinterest"></ion-icon>
+            <ion-icon class="icon-item" name="logo-google"></ion-icon>
+            <ion-icon class="icon-item" name="globe-outline"></ion-icon>
+            <ion-icon class="icon-item" name="logo-skype"></ion-icon>
+            <ion-icon class="icon-item" name="logo-linkedin"></ion-icon>
+            <ion-icon class="icon-item" name="logo-behance"></ion-icon>
+            <ion-icon class="icon-item" name="logo-flickr"></ion-icon>
+          </div>
+        </div>
+      </div>
+
+      <div class="touch-flex-item-form">
+
+        <div class="d-lg-flex d-md-column gap-3">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="name" class="form-control input-width" id="exampleFormControlInput1" placeholder="Enter your Name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control input-width" id="exampleFormControlInput1" placeholder="Enter your Email">
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="input-textarea" placeholder="Enter your Message" rows="3"></textarea>
+        </div>
+
+        
+        <button type="button" class="text-area-btn btn-sm btn border btn-light"><ion-icon name="paper-plane-sharp"></ion-icon> SEND MESSAGE</button>
+             
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER SECTION  -->
+
+  <section class="footer-section">
+    <div class="bg-primary text-white newsletter-wrapper">
+      <div class="newsletter-content">
+        <p class="fw-bold fs-4">Subscribe to our Newsletter</p>
+        <div class="input-group">
+          <ion-icon class="footer-icon" name="paper-plane-sharp"></ion-icon>
+          <input type="text" aria-label="First name" placeholder="Enter your Email" class="form-control">
+          <button class="btn btn-sm border border-2 text-secondary bg-white fw-bold" type="button" id="button-addon2">SUBSCRIBE</button>
+        </div>
+        <p class="py-2" style="font-size: 13px;">Stay informed on our latest news!</p>
+      </div>
+    </div>
+
+    <div class=" footer-grid">
+      <div class="d-lg-flex d-md-column justify-content-between">
+        <div class="pb-5">
+          <h6 class="polotemplate-head fw-bold pb-3">POLO HTML5 TEMPLATE</h6>
+          <p class="text-secondary polotemplate-p pb-3">Built with love in Fort Worth, Texas, <br> USA
+            All rights reserved. Copyright © 2019. INSPIRO.</p>
+            <button class="btn btn-primary text-white btn-sm px-3 py-2 fw-medium">PURCHASE NOW</button>
+        </div>
+
+        <div class=" footer-col">
+          <div class="d-lg-flex d-md-column gap-5">
+            <div class="">
+              <h6 class="polotemplate-head fw-bold pb-2">DISCOVER</h6>
+              <p>Features</p>
+              <p>Layouts</p>
+              <p>Corporate</p>
+              <p>Updates</p>
+              <p>Pricing</p>
+              <p>Customers</p>
+            </div>
+
+            <div class="">
+              <h6 class="polotemplate-head pb-2 fw-bold">FEATURES</h6>
+              <p>Layouts</p>
+              <p>Headers</p>
+              <p>Widgets</p>
+              <p>Footers</p>
+            </div>
+            
+            <div class="">
+              <h6 class="polotemplate-head pb-2 fw-bold">PAGES</h6>
+              <p>Portfolio</p>
+              <p>Blog</p>
+              <p>Shop</p>
+            </div>
+
+            <div class="">
+              <h6 class="polotemplate-head pb-2 fw-bold">SUPPORT</h6>
+              <p>Help Desk</p>
+              <p>Documentation</p>
+              <p>Contact Us</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-reserved py-4">
+      <div class="reserved-content">
+        <p>© 2019 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved. INSPIRO</p>
+      </div>
+    </div>
+  </section>
+
+  <a href="#all-way-up"><ion-icon class="back-top-icon" name="chevron-up-outline"></ion-icon></a>
 
 
 
@@ -69,8 +546,12 @@
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
 </html>

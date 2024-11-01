@@ -1,0 +1,444 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:ital,wght@0,100;0,200;0,300;&display=swap');
+
+
+
+
+/* NAVBAR STYLE */
+
+.carousel-item{
+    height: 450px; 
+}
+
+.carousel-sec-img{
+    height: 450px; 
+}
+.explore-heading{
+    font-size: 60px; 
+}
+
+.polo-head{
+    font-size: 60px; 
+}
+
+.carousel-content {
+    margin-bottom: 70px; 
+    text-align: left; 
+}
+
+.carousel-explore{
+    margin-bottom: 40px; 
+}
+
+
+
+
+
+.smaller-text{
+    font-size: 14px; 
+    /* width: 230px;  */
+}
+
+
+
+/* .poppins-font{
+    font-family: "Poppins", "sans-serif";
+} */
+
+.img-background{
+    background-image: url(/asset\ 6.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 90vh; 
+}
+
+.hover-d:hover{
+
+    color: hsl(208, 8%, 46%);
+}
+
+.parallax-flex-container{
+    display: flex;
+    justify-content: center; 
+    gap: 100px;
+    padding: 40px 0;  
+
+}
+
+.parallax-flex{
+    width: 50%;
+    display: flex; 
+    padding: 60px 0;  
+
+}
+
+.parallax-items{
+    display: flex; 
+    flex-direction: column; 
+    gap: 70px; 
+    text-align: center; 
+    width: 300px;
+}
+
+.items p{
+    font-size: 13px; 
+}
+
+.items h3{
+    font-size: 50px; 
+}
+
+
+
+
+/* ABOUT STYLE */
+
+.about-header{
+    font-size: 31px; 
+}
+
+.medium-text{
+    font-size: 18px; 
+}
+
+
+/* OUR NUMBERS */
+
+.our-numbers-p{
+    font-size: 19px; 
+}
+
+
+
+/* ABOUT COMPANY STYLE */
+
+
+.about-company{
+    padding: 70px 0 30px; 
+    text-align: center; 
+}
+
+.about-subhead{
+    font-size: 35px; 
+}
+
+.about-grid-wrapper{
+    font-size: 15px; 
+}
+
+.about-grid {
+    padding: 30px 0;
+    max-width: 80%;  
+    margin: 0 auto; 
+}
+
+.progress-flex{
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.progress-col-flex{
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 11px; 
+}
+
+.progress-wrapper{
+    line-height: 0;
+    width: 300px; 
+}
+
+
+.accordion-flex{
+    padding: 10px 20px; 
+    width: 100%; 
+    align-items: center; 
+}
+
+.accordion-item{
+    border:1px solid hsl(208, 8%, 46%); 
+
+}
+
+.blog-flex{
+    display: flex; 
+}
+
+.blog-img{
+    align-self: center; 
+}
+
+
+
+/* GET IN TOUCH SECTION STYLE */
+
+.getin-touch-section{
+    background-image: url(/asset\ 7.png);
+    background-size: cover; 
+    background-position: end;  
+    padding: 120px 0; 
+}
+
+.touch-flexwrap{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.touch-flex-item{
+    width: 50%; 
+    font-size: 14px; 
+}
+
+.touch-head{
+    font-size: 30px;
+}
+.icon-wrapper{
+    cursor: pointer; 
+}
+.icon-item {
+    padding: 8px; 
+    background-color: #fff; 
+    border-radius: 6px; 
+}
+.touch-flex-item-form{
+    width: 50%;
+    font-size: 14px; 
+}
+
+#input-textarea{
+    width: 89%; 
+    height: 150px; 
+}
+
+.text-area-btn{
+    font-size: 10px;
+}
+
+
+
+
+/* FOOTER SECTION STYLE */
+
+
+.newsletter-wrapper{
+    padding: 40px; 
+    text-align: center; 
+}
+
+.newsletter-content{
+    width: 40%;
+    margin: 0 auto; 
+}
+
+.foot-btn{
+    font-size: 10px; 
+}
+
+.footer-icon{
+    padding: 11px;
+    background-color: #ece8e8; 
+    color:hsl(208, 8%, 46%);
+    border-radius: 4px 0 0 4px;
+}
+
+.footer-grid{ 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 50px 0; 
+}
+
+.polotemplate-p{
+    font-size: 13px; 
+}
+
+.polotemplate-head{
+    font-size: 16px;
+    padding-top: 10px;  
+}
+
+.btn-sm{
+    font-size: 10px; 
+}
+
+.footer-grid-flex{
+    display: flex; 
+    justify-content: space-between; 
+}
+
+
+.footer-col{
+    font-size: 14px; 
+}
+
+.footer-reserved{
+    background-color: hsl(216, 19%, 95%);
+}
+
+.reserved-content{
+    width: 50%;
+    margin: 0 auto; 
+    font-size: 13px;
+    padding-top: 15px; 
+}
+
+
+.back-top-icon{
+    padding: 13px; 
+    background-color: #fff; 
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed; 
+    bottom: 20px; 
+    right: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY SECTION STYLE */
+
+
+
+@media (max-width: 768px){
+
+    .carousel-item{
+        height: 400px; 
+    }
+    
+    .explore-heading{
+        font-size: 30px; 
+    }
+
+    .polo-head{
+        font-size: 30px;
+    }
+
+    .carousel-sec-img{
+        height: 330px; 
+
+    }
+
+    .carousel-sec-img img{
+        height: 330px; 
+    }
+
+    .carousel-content { 
+        margin-bottom: 20px; 
+    }
+
+    .carousel-explore{
+        margin-bottom: 20px; 
+    }
+
+    .about-header{
+        font-size: 30px; 
+    }
+    
+    .medium-text{
+        font-size: 23px; 
+    }
+
+    .mb-fully-responsive{
+        padding: 30px; 
+    }
+
+    .mobile-responsive h5{
+        font-size: 25px; 
+    }
+
+    .mobile-responsive p{
+        font-size: 18px;  
+    }
+
+    .purchase-polo{
+        text-align: center; 
+    }
+
+
+    /* PARALLAX STYLE */
+
+    .parallax-flex-container{
+        flex-direction: column; 
+        gap: 50px; 
+        text-align: center;
+        align-items: center; 
+    }
+
+    .parallax-flex{
+        flex-direction: column; 
+        padding: 40px 0; 
+    }
+
+    .parallax-items{
+        gap: 20px; 
+        width: 120px; 
+    }
+
+    
+
+    .img-background{
+        height: 150vh; 
+    }
+
+    .our-numbers-p{
+        font-size: 20px;  
+    }
+
+
+    /* GET IN TOUCH STYLE */
+
+    .touch-flexwrap{
+        width: 80%;
+        /* text-align: center;  */
+        margin: 0 auto;
+    }
+
+    .touch-flex-item{
+        width: 100%; 
+        font-size: 14px; 
+    }
+
+    .social-header{
+        font-size: 19px; 
+    }
+
+
+    .icon-item {
+        font-size: 15px; 
+        gap: 10px; 
+        margin-bottom: 8px; 
+    }
+
+    .touch-flex-item-form{
+        width: 100%;
+        font-size: 14px; 
+    }
+
+    #input-textarea{
+        width: 100%; 
+        height: 150px; 
+    }
+
+    .newsletter-content{
+        width: 100%;
+    }
+    
+    .reserved-content{
+        width: 80%;
+        text-align: center; 
+    }
+}
